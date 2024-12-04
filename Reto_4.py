@@ -12,6 +12,3 @@ def createXmasTree(height: int, ornament: str) -> str:
         tree.append('_' * (height - 1) + '#' + '_' * (height - 1))
     
     return '\n'.join(tree)
-
-tree = createXmasTree(3, '*')
-print(tree)
